@@ -15,7 +15,6 @@ export default function Home() {
             <Features />
             <Integrations />
             <Stats />
-            <CTA />
             <Testimonial />
             <Footer />
         </main>
