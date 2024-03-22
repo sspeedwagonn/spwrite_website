@@ -2,10 +2,14 @@ import React from 'react';
 
 interface ButtonProps {
     children: string;
+    className?: string;
 }
-const Button:React.FC<ButtonProps> = ({ children }) => {
+
+const Button: React.FC<ButtonProps> = ({ children, className = '' }) => {
+    const buttonClasses = `font-semibold border px-4 rounded-xl ${className}`;
+
     return (
-        <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+        <button className={buttonClasses}>
             {children}
         </button>
     );
