@@ -7,8 +7,11 @@ import Footer from "@/components/Footer";
 export default function Home() {
     return (
         <main>
-            <NavBar />
-            <Hero />
+            <div className="bg-gray-50 mb-5">
+                <NavBar />
+                <Hero />
+            </div>
+
             <Features />
             <Stats />
             <Footer />

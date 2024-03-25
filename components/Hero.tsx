@@ -14,7 +14,7 @@ const Hero = () => {
                 <Button children={"Join The Waitlist"} className="py-4 bg-orange-700 transition duration-500 hover:bg-white hover:text-orange-700 border-orange-700 text-white rounded-xl"/>
             </div>
 
-            <img src="" alt="View of SPWrite from laptop" className="text-center pt-5"/>
+            <img src="https://i0.wp.com/sunrisedaycamp.org/wp-content/uploads/2020/10/placeholder.png?ssl=1" alt="View of SPWrite from laptop" className="mx-auto  w-1/2 h-1/2 pt-5 pb-10"/>
         </div>
     );
 };

@@ -22,9 +22,37 @@ const Features = () => {
                 </ul>
                 <img src="https://i0.wp.com/sunrisedaycamp.org/wp-content/uploads/2020/10/placeholder.png?ssl=1" alt="" className="rounded-xl"/>
             </div>
-            <div>
+            <div className="mx-[15%] columns-2 pt-10">
+                <img src="https://i0.wp.com/sunrisedaycamp.org/wp-content/uploads/2020/10/placeholder.png?ssl=1" alt=""
+                     className="rounded-xl"/>
+                <div className="bg-orange-50 h-20 w-20 rounded-full flex items-center justify-center">
+                    <IoMailOutline className="text-orange-800 bg-orange-200 rounded-full h-12 w-12 p-2"/>
+                </div>
+                <h4>User-Friendly Design</h4>
+                <p>Our design prioritizes simplicity and ease-of-use, ensuring<br/> a seamless writing experience for
+                    every author.</p>
+                <ul>
+                    <li className="flex items-center"><GiCheckMark className="mr-2"/> Designed to be accessible for all
+                    </li>
+                    <li><GiCheckMark/> Efficient organization for easy access</li>
+                    <li><GiCheckMark/> Interactive tutorials and tooltips for learning on-to-go</li>
+                </ul>
             </div>
-            <div>
+            <div className="mx-[15%] columns-2 pt-10">
+                <div className="bg-orange-50 h-20 w-20 rounded-full flex items-center justify-center">
+                <IoMailOutline className="text-orange-800 bg-orange-200 rounded-full h-12 w-12 p-2"/>
+                </div>
+                <h4>User-Friendly Design</h4>
+                <p>Our design prioritizes simplicity and ease-of-use, ensuring<br/> a seamless writing experience for
+                    every author.</p>
+                <ul>
+                    <li className="flex items-center"><GiCheckMark className="mr-2"/> Designed to be accessible for all
+                    </li>
+                    <li><GiCheckMark/> Efficient organization for easy access</li>
+                    <li><GiCheckMark/> Interactive tutorials and tooltips for learning on-to-go</li>
+                </ul>
+                <img src="https://i0.wp.com/sunrisedaycamp.org/wp-content/uploads/2020/10/placeholder.png?ssl=1" alt=""
+                     className="rounded-xl"/>
             </div>
         </div>
     );
