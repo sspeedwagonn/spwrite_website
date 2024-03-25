@@ -7,7 +7,7 @@ const NavBar = () => {
 
 
     return (
-        <div className="bg-gray-50 flex justify-between items-center py-4 px-8">
+        <div className="bg-gray-50 flex justify-between items-center py-4 px-8 mx-[10%]">
             <div className="flex items-center">
                 <RiQuillPenFill className="w-6 h-6 mr-2 text-orange-700"/>
                 <div className="text-xl font-bold bg-gradient-to-r from-orange-800 to-orange-400 text-transparent bg-clip-text">SPWrite</div>
